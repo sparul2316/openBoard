@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Openboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="StyleSheet" href="style.css" />
+</head>
+<body>
+    
+    <!-- options container -->
+    <div class="options-cont">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <!-- tools conatiner -->
+    <div class="tools-cont scale-tools">
+        <img src="icons/Pencil.svg" class ="pencil">
+        <img src="icons/Eraser.svg" class="eraser">
+        <img src="icons/Download.svg" class="download">
+        <img src="icons/Upload.svg" class="upload">
+        <img src="icons/StickyNote.svg" class="sticky">
+        <img src="icons/Redo.svg" class="redo">
+        <img src="icons/Undo.svg" class="undo">
+    </div>
+
+    <!-- pencil tool container -->
+
+    <div class="pencil-tool-cont">
+
+        <div class="pencil-width-cont">
+            <input type="range" min="2" max="10" value="3">
+        </div>
+
+        <div class="pencil-color-cont">
+            <div class="black pencil-color"></div>
+            <div class="blue pencil-color"></div>
+            <div class="red pencil-color"></div>
+
+        </div>
+    </div>
+
+    <!-- eraser tool container -->
+
+    <div class="eraser-tool-cont">
+        <input type="range" min="2" max="10" value="3">
+        
+    </div>
+
+
+    <!-- sticky notes -->
+    <!-- <div class="sticky-cont">
+        <div class="header-cont">
+            <div class="minimize">
+
+            </div>
+            <div class="remove">
+
+            </div>
+        </div>
+        <div class="notes-cont">
+            <textarea></textarea>
+        </div>
+    </div> -->
+</body>
+
+<script src="tools.js"></script>
+</html>
